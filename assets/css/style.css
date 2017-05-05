@@ -84,6 +84,7 @@ h3 {
 }
 
 .col-md-4  img {
+  position: relative;
   width: 100%;
   border: 0 none;
   opacity: 2;
@@ -112,7 +113,7 @@ h3 {
 
 .navbar-static-bottom {
   clear: both;
-  font-size: 10px;
+  font-size: 15px;
   color: #fff;
   color: #ccc;
   text-align: center;
@@ -122,5 +123,8 @@ h3 {
 
 }
 
-
+.row, .col-md-4{
+  margin-right: 0px;
+  margin-left: 45px;
+}
 
